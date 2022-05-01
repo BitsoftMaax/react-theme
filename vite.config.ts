@@ -5,7 +5,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
-  base: "https://v3.mend.mn/",
+  base: "http://khan.bits.mn/",
   // server: {
   //   host: true,
   // },
